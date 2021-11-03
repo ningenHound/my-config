@@ -1,0 +1,3 @@
+#!/bin/bash
+
+amixer -M -q sset Master 1%$1 | notify-send --expire-time=100 "Volume $(printf %s $(amixer -M get Master | awk '$0~/%/{print $4}' | tr -d '[]'))"""

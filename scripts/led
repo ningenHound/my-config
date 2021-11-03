@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ "$1" = "off" ]; then
+  xset led off 
+else
+  xset led on 
+fi

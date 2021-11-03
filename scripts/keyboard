@@ -1,0 +1,11 @@
+#!/bin/bash
+
+keyboard_lang=`setxkbmap -v | awk -F '+' '/symbols/ {print $2}'`
+
+if [ "$keyboard_lang" = "us" ]; then
+  setxkbmap es
+  notify-send "es keyboard"
+else
+  setxkbmap us
+  notify-send "us keyboard"
+fi

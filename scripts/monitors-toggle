@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# toggle between 2 external monitors and the main of laptop monitor
+
+function print_usage() {
+   echo "usage:"
+   echo "$0 1"
+   echo "$0 0" 
+}
+
+if [ $# != 1 ]; then
+   print_usage
+   exit
+fi
+
+case "$1" in
+
+1) xrandr --output VGA-0 --auto --output HDMI-0 --auto --left-of VGA-0 --output eDP --off
+   ;;
+0) xrandr --output VGA-0 --off --output HDMI-0 --off --output eDP --auto
+   ;;
+*) print_usage
+   ;;
+
+esac

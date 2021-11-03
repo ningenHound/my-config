@@ -1,0 +1,3 @@
+#!/bin/bash
+
+notify-send "$(date +%A) $(date +%d) de $(date +%B), $(date +%H):$(date +%M):$(date +%S)"

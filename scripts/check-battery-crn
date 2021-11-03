@@ -1,0 +1,5 @@
+battery_level=`acpi -b | grep -P -o '[0-9]+(?=%)'`
+#if [ $battery_level -le 6 ]
+#then
+    notify-send "Battery level ${battery_level}%"
+#fi

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+notify-send "$(acpi -b | sed 's/Battery 0:/Battery:/g')"
