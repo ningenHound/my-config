@@ -1,0 +1,1 @@
+setxkbmap es | notify-send "keyboard es" 
