@@ -18,4 +18,6 @@
 
 nitrogen --restore &
 
-#jgmenu_run
+unclutter -idle 1 &
+
+#jgmenu_run --center &

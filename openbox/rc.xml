@@ -376,11 +376,6 @@
         <monitor>2</monitor>
       </action>
     </keybind>
-    <keybind key="A-Return">
-      <action name="Execute">
-        <command>rxvt</command>
-      </action>
-    </keybind>
     <keybind key="A-k">
       <action name="Execute">
         <command>rofi -show window</command>
