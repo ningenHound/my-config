@@ -1,0 +1,1 @@
+sh -c '[ $(echo "NO\nYES" | dmenu -sb "#ff6600" -i -p "Really exit X session?") = "YES" ] && notify-send "you chose yes!"'
