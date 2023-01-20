@@ -1,12 +1,6 @@
 
-# i3 windows manager
-# exec i3
+# place this file, or a symbolic link of it, in your user folder
 
-# dwm windows manager
-# exec dwm
+# run openbox by default
+exec openbox-session
 
-# openbox
-# exec openbox-session
-
-# gnome-panel
- exec gnome-panel
