@@ -1,4 +1,4 @@
-#my config
+# my config
 
 *Some settings, programs and scripts to make a linux desktop more usable and fun :-)*
 

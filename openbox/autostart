@@ -7,6 +7,7 @@
 # configuration of feh to show images in background
 # uncomment and set your own image path
 # for mor information, check feh manual
+#
 # feh --no-fehbg --bg-scale '/home/fran/my-config/backgrounds/bg2.jpg' 
 
 # disable annoying pc beep on Debian machines
