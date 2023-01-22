@@ -2,8 +2,6 @@
 
 *Some settings, programs and scripts to make a linux desktop more usable and fun :-)*
 
----
-
 Set of tools, scripts and configuration files with the aim to get a minimalistic and non intrusive graphic environment (even without a toolbar!) for my daily personal use.
 
 This may be not too fancy, but is efficient and unbloated, with a strong focus on command line tools and lightweight software that *just works* while it gets out of the way.
