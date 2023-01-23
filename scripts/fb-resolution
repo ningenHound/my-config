@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# set the frame buffer resolution when not using x
-fbset -xres 1920 -yres 1080
