@@ -6,13 +6,13 @@ Set of tools, scripts and configuration files with the aim to get a minimalistic
 
 I use [Openbox](http://openbox.org) as window manager, this may not be too fancy, but is efficient and unbloated. To complement it, some scripts and programs with a strong focus on command line, they're lightweight and *just work* while remain out of the way.
 
-Currently Running  on Debian, but it surely will work on other distros.
+Currently running  on Debian, but it surely will work on other distros.
 
 These are some of the programs i use, so in this repo you'll find scripts and configuration files integrated to them:
 
 - **rxvt-unicode**, a terminal emulator with unicode support by default
 - [jgmenu](https://jgmenu.github.io/), a X11 menu
-- **tmux**, a popular terminal multiplexer
+- **tmux**, a terminal multiplexer
 - **feh**, image viewer, can be used to set backgroud image for your desktop
 - **acpi**, shows battery status and other [ACPI](https://en.wikipedia.org/wiki/ACPI) information
 - **notify-send**, a program to send desktop notifications
